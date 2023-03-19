@@ -72,6 +72,15 @@
   max-width: 34ch;
 }
 
+.footer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  border: 1px solid #2f5b80;
+  justify-content: center;
+  text-align: center;
+}
 .center {
   display: flex;
   justify-content: center;
