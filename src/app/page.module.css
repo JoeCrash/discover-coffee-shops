@@ -6,6 +6,9 @@
   padding: 6rem;
   min-height: 100vh;
 }
+.main h1 {
+  font-size: 6em;
+}
 
 .description {
   display: inherit;
@@ -46,7 +49,7 @@
   max-width: 100%;
 }
 
-.card {
+/* .card {
   padding: 1rem 1.2rem;
   border-radius: var(--border-radius);
   background: rgba(var(--card-rgb), 0);
@@ -137,18 +140,18 @@
   content: '';
   position: absolute;
   z-index: -1;
-}
+} */
 
 /* Conic Gradient Animation */
-.thirteen::before {
+/* .thirteen::before {
   animation: 6s rotate linear infinite;
   width: 200%;
   height: 200%;
   background: var(--tile-border);
-}
+} */
 
 /* Inner Square */
-.thirteen::after {
+/* .thirteen::after {
   inset: 0;
   padding: 1px;
   border-radius: var(--border-radius);
@@ -158,7 +161,7 @@
     rgba(var(--tile-end-rgb), 1)
   );
   background-clip: content-box;
-}
+} */
 
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
@@ -173,9 +176,9 @@
 }
 
 @media (prefers-reduced-motion) {
-  .thirteen::before {
+  /* .thirteen::before {
     animation: none;
-  }
+  } */
 
   .card:hover span {
     transform: none;
@@ -260,14 +263,14 @@
 }
 
 @media (prefers-color-scheme: dark) {
-  .vercelLogo {
+  /* .vercelLogo {
     filter: invert(1);
   }
 
   .logo,
   .thirteen img {
     filter: invert(1) drop-shadow(0 0 0.3rem #ffffff70);
-  }
+  } */
 }
 
 @keyframes rotate {

@@ -1,6 +1,6 @@
 //replaces _app.js from React < v13
 import "./globals.css";
-import Footer from "./components/footer/footer";
+// import Footer from "./components/footer/footer";
 
 export const metadata = {
   title: "Java Sprint",
@@ -13,7 +13,6 @@ export default function RootLayout({ children }) {
       <body>
         <div>
           {children}
-          <Footer />
         </div>
       </body>
     </html>
