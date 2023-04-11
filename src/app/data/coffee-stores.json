@@ -25,7 +25,7 @@
   },
   {
     "id": 301,
-    "name": "Route 301",
+    "name": "Route Banana",
     "imgUrl": "https://images.unsplash.com/photo-1498804103079-a6351b050096?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2468&q=80",
     "websiteUrl": "",
     "address": "999 Banana St",
@@ -33,7 +33,7 @@
   },
   {
     "id": 302,
-    "name": "Route 302",
+    "name": "Route Cherry",
     "imgUrl": "https://images.unsplash.com/photo-1498804103079-a6351b050096?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2468&q=80",
     "websiteUrl": "https://www.route302coffee.com/",
     "address": "404 Cherry St",
