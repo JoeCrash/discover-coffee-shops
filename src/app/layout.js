@@ -2,8 +2,9 @@
 import "./globals.css";
 // import Footer from "./components/footer/footer";
 
+//this covers the head component from next.js <= v12
 export const metadata = {
-  title: "Java Sprint",
+  title: "Java Sprint!",
   description: "Discover your local coffee shops!",
 };
 
