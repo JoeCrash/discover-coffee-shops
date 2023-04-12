@@ -9,6 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "api": "^5.0.8",
+    "dotenv": "^16.0.3",
     "eslint": "8.35.0",
     "eslint-config-next": "13.2.4",
     "next": "13.2.4",
@@ -17,7 +19,6 @@
   },
   "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
   "main": "next.config.js",
-  "devDependencies": {},
   "author": "JoeCrash",
   "license": "ISC"
 }
